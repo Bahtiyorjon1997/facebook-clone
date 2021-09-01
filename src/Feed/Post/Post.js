@@ -7,11 +7,12 @@ const Post = ({ profilePic, image, username, timestamp, message }) => {
     <div className="post">
       <div className="post__top">
         <Avatar src={profilePic} className="post__avatar" />
+        <div className="post__top__info">
+          <h3>{username}</h3>
+          <p>{timestamp}</p>
+        </div>
       </div>
-      <div className="post__top__info">
-        <h3>{username}</h3>
-        <p>{timestamp}</p>
-      </div>
+
       <div className="post__bottom">
         <p>{message}</p>
       </div>
