@@ -1,17 +1,20 @@
 import "./App.css";
 import React from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
+import Sidebar from "./Sidebar/Sidebar";
+import Feed from "./Feed/Feed";
 
 function App() {
   return (
     <div className="app">
-      <h1>Let's build the FaceBook clone</h1>
-      {/* Header */}
       <Header />
-      {/* App body */}
-      {/* SideBar */}
-      {/* Feed */}
-      {/* Widgets */}
+
+      <div className="app__body">
+        <Sidebar />
+        <Feed />
+        {/* Feed */}
+        {/* Widgets */}
+      </div>
     </div>
   );
 }
