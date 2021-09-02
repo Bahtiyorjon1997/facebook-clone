@@ -10,6 +10,7 @@ const Widgets = () => {
         style={{ border: "none" }}
         width="340"
         height="100%"
+        scrolling="true"
       ></iframe>
     </div>
   );
