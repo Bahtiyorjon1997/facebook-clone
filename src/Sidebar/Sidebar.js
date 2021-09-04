@@ -1,6 +1,6 @@
 import { ExpandMoreOutlined } from "@material-ui/icons";
 import "./Sidebar.css";
-import userEvent from "@testing-library/user-event";
+// import userEvent from "@testing-library/user-event";
 import React from "react";
 import SidebarRow from "./SidebarRow/SidebarRow";
 import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
