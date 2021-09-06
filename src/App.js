@@ -8,12 +8,11 @@ import Login from "./Login/Login";
 import { useStateValue } from "./StateProvider";
 
 function App() {
-  // const [{ user }, dispatch] = useStateValue();
-  const user = null;
+  const [{ user }, dispatch] = useStateValue();
 
   return (
     <div className="app">
-      {user ? (
+      {!user ? (
         <Login />
       ) : (
         <>
